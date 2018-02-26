@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <startup useLegacyV2RuntimeActivationPolicy="true"> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+    </startup>
+  <connectionStrings>
+   
+    <!--<add name="PosConString" connectionString="SERVER = Kamrul-PC; DATABASE =IFADPOS; user id = sa; PASSWORD = 123" />
+        <add name="cryServer" connectionString="Kamrul-PC" />
+        <add name="cryDatabase" connectionString="IFADPOS" />
+        <add name="cryUserID" connectionString="sa" />
+        <add name="cryPass" connectionString="123" />-->
+		
+		<!--<add name="PosConString" connectionString="Data Source = 103.51.228.194,1433; Network Library=DBMSSOCN; DATABASE =IFADPOS; user id = datasale; PASSWORD = @group123; Pooling=false; Connection Timeout=300" />
+    <add name="cryServer" connectionString="103.51.228.194,1433" />
+    <add name="cryDatabase" connectionString="IFADPOS" />
+    <add name="cryUserID" connectionString="datasale" />
+    <add name="cryPass" connectionString="@group123" />-->
+    
+     <add name="PosConString" connectionString="SERVER = ELGI-PC; DATABASE =IFADPOS; user id = datasale; PASSWORD = @group123" />
+        <add name="cryServer" connectionString="ELGI-PC" />
+        <add name="cryDatabase" connectionString="IFADPOS" />
+        <add name="cryUserID" connectionString="datasale" />
+        <add name="cryPass" connectionString="@group123" />
+        
+        <!--<add name="PosConString" connectionString="SERVER = Satyajit-PC; DATABASE =IFADPOS; user id = sa; PASSWORD = 123" />
+        <add name="cryServer" connectionString="Satyajit-PC" />
+        <add name="cryDatabase" connectionString="IFADPOS" />
+        <add name="cryUserID" connectionString="sa" />
+        <add name="cryPass" connectionString="123" />-->
+
+  </connectionStrings>
+</configuration>

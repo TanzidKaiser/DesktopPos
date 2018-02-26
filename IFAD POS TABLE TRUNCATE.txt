@@ -1,0 +1,61 @@
+TRUNCATE TABLE Batch
+
+TRUNCATE TABLE Category
+
+TRUNCATE TABLE CategoryMain
+ 
+TRUNCATE TABLE CategorySub
+
+TRUNCATE TABLE Customer
+
+TRUNCATE TABLE CustomerLedger
+
+TRUNCATE TABLE Expense
+
+TRUNCATE TABLE Income
+
+TRUNCATE TABLE Location
+
+TRUNCATE TABLE LocationMain
+
+TRUNCATE TABLE LocationSub
+
+TRUNCATE TABLE Product
+
+TRUNCATE TABLE Purchase
+
+TRUNCATE TABLE PurchaseReturn
+
+TRUNCATE TABLE Sales
+
+TRUNCATE TABLE SalesReturn
+
+TRUNCATE TABLE SalesGraph
+
+TRUNCATE TABLE Supplier
+
+TRUNCATE TABLE TempCustomerLedger
+
+TRUNCATE TABLE TempExpense
+
+TRUNCATE TABLE TempExpenseReport
+
+TRUNCATE TABLE TempIncomeExpense
+
+TRUNCATE TABLE TempInvoiceSalesReport
+
+TRUNCATE TABLE TempProfit
+
+TRUNCATE TABLE TempPurchase
+
+TRUNCATE TABLE TempPurchaseReport
+
+TRUNCATE TABLE TempPurchaseReturnReport
+
+TRUNCATE TABLE TempSales
+
+TRUNCATE TABLE TempSalesAmount
+
+TRUNCATE TABLE TempSalesReturnReport
+
+TRUNCATE TABLE TempSalesStock
